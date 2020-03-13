@@ -1,0 +1,7 @@
+{
+  "name": "sample_i18n_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luke Luo <guozhong.luo@ext.mercedes-benz.io>",
+  "license": "MIT"
+}
