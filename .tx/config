@@ -1,0 +1,16 @@
+[main]
+host = https://www.transifex.com
+
+[sample_app.en-json]
+file_filter = locales/<lang>.json
+minimum_perc = 0
+source_file = locales/en.json
+source_lang = en
+type = KEYVALUEJSON
+trans.th_TH = locales/th-TH.json
+trans.vi_VN = locales/vi-VN.json
+trans.hi_IN = locales/hi-IN.json
+trans.ja_JP = locales/ja-JP.json
+trans.ko_KR = locales/ko-KR.json
+trans.ms_MY = locales/ms-MY.json
+trans.zh_CN = locales/zh-CN.json

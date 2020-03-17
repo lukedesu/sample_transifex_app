@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Luke Luo <guozhong.luo@ext.mercedes-benz.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "i18n-express": "^1.1.3",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
