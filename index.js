@@ -15,4 +15,8 @@ app.set('view engine', 'pug');
 
 app.get('/', (req, res) => res.render('index'))
 
+app.get('/test', (req, res) => res.status(200).json({ test: 'test' }))
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
+module.exports = app
